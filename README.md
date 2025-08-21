@@ -32,10 +32,13 @@ cd <your-repo-folder>
 ```
 
 2. **Install dependencies**:
+```bash
 composer install
-
+```
 
 3. **Configure environment variables**:
+
+```
 APP_NAME=Laravel
 APP_URL=http://localhost
 APP_KEY=base64:GENERATE_YOUR_KEY
@@ -48,6 +51,7 @@ DB_DATABASE=crud_app
 DB_USERNAME=root
 DB_PASSWORD=yourpassword
 
+```
 Generate the app key:
 ```bash
 php artisan key:generate
