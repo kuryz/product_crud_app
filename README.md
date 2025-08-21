@@ -68,3 +68,23 @@ php artisan db:seed
 6. **Serve the application**:
 ```bash
 php artisan db:seed
+```
+
+**Improvements**
+
+**Authentication**: 
+ - Currently uses custom AuthController; could use Laravel Fortify/Breeze for stronger security.
+
+**File Uploads**:
+ - Could add validation for type/size and automatic thumbnail resizing.
+
+**Validation & UX**:
+ - Simple server-side validation exists; could add client-side feedback using Bootstrap 5.
+
+**Authorization**: 
+ - Only auth middleware is applied; could add policies so only product owners can edit/delete.
+
+**UI Enhancements**: 
+ - Product listing could use a responsive card grid.
+ - Flash messages for CRUD actions would improve UX.
+
